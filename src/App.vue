@@ -56,12 +56,13 @@
             <i class="icon icon-4x icon-apps"></i>
           </div>
           <p class="empty-title h5">
-            Can not find any application match
-            <strong>{{ keyword }}</strong>
+            Your search 
+            <strong>'{{ keyword }}'</strong>
+            did not match any apps.
           </p>
           <ul style="margin: auto; text-align: left">
-            <p class="empty-subtitle">Suggestion:</p>
-            <li>Make sure that all words are spelled correctly.</li>
+            <p class="empty-subtitle">Suggestions:</p>
+            <li>Make sure all words are spelled correctly.</li>
             <li>Try different keywords.</li>
           </ul>
         </div>
